@@ -17,8 +17,8 @@ venv/
 
 # Data (do NOT commit datasets to repository)
 # (dataset/ was intentionally ignored before; including it now per user request)
-level*/
-patches_*/
+# (level*/ and patches_*/ are no longer ignored per user request)
+
 
 # Cache, outputs
 *.pthckpt
