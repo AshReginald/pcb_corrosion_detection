@@ -16,7 +16,7 @@ __pycache__/
 venv/
 
 # Data (do NOT commit datasets to repository)
-dataset/
+# (dataset/ was intentionally ignored before; including it now per user request)
 level*/
 patches_*/
 
