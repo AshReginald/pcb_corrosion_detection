@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints
+
+# Editor / OS
+.vscode/
+.DS_Store
+*.log
+
+# Environment
+.env
+venv/
+
+# Data (do NOT commit datasets to repository)
+dataset/
+level*/
+patches_*/
+
+# Cache, outputs
+*.pthckpt
+*.ckpt
+
+# Ignore model caches but NOT .pth (we will track .pth with Git LFS)
+# *.pth  <-- intentionally not ignored to allow Git LFS tracking
